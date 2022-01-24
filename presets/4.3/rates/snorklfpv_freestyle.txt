@@ -13,7 +13,7 @@
 #$ DESCRIPTION: Throttle limit and curve are not included
 #$ PRIORITY: 0
 
-#$ OPTION BEGIN (CHECKED): Use Actual rates
+##$ OPTION BEGIN (CHECKED): Use Actual rates
 set rates_type = ACTUAL
 set roll_rc_rate = 30
 set pitch_rc_rate = 30
@@ -24,18 +24,18 @@ set yaw_expo = 100
 set roll_srate = 114
 set pitch_srate = 114
 set yaw_srate = 114
-#$ OPTION END
+##$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Use Betaflight rates
-set rates_type = BETAFLIGHT
-set roll_rc_rate = 80
-set pitch_rc_rate = 80
-set yaw_rc_rate = 80
-set roll_expo = 0
-set pitch_expo = 0
-set yaw_expo = 0
-set roll_srate = 86
-set pitch_srate = 86
-set yaw_srate = 86
-#$ OPTION END
+##$ OPTION BEGIN (UNCHECKED): Use Betaflight rates
+#set rates_type = BETAFLIGHT
+#set roll_rc_rate = 80
+#set pitch_rc_rate = 80
+#set yaw_rc_rate = 80
+#set roll_expo = 0
+#set pitch_expo = 0
+#set yaw_expo = 0
+#set roll_srate = 86
+#set pitch_srate = 86
+#set yaw_srate = 86
+##$ OPTION END
 
